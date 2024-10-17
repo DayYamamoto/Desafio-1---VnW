@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header {
+  background-color: #FF69B4;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: solid black 1px;
+}
+
+.logo_header {
+  border: solid blue 3px;
+  height: 7vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 50px;
+}
+.logo_header img {
+  height: 60%;
+}
+.logo_header h1 {
+  font-size: 1.5vw;
+  color: white;
+  font-weight: 400;
+}
+
+nav {
+  border: red solid 2px;
+  width: 55vw;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 2vw;
+}
+nav a {
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sobre {
+  background-color: #FFD9EC;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: solid 4px green;
+  width: 100%;
+  height: 45vh;
+}
+.sobre p {
+  font-size: 1.5vw;
+  border: red solid 4px;
+  width: 50vw;
+  height: 25vh;
+  text-align: left;
+}
+.sobre img {
+  width: 20%;
+}
+
+.conscientizacao {
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: solid 4px green;
+  width: 100%;
+  height: 30vh;
+}
+.conscientizacao img {
+  width: 20%;
+}
+.conscientizacao p {
+  font-size: 1.5vw;
+  border: red solid 4px;
+  width: 50vw;
+  height: 20vh;
+  text-align: left;
+  color: white;
+}
+
+.dicas {
+  background-color: #FFD9EC;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: solid 4px rgb(41, 5, 206);
+  width: 100%;
+  height: 45vh;
+}
+.dicas img {
+  width: 15%;
+}
+
+footer {
+  border: solid cadetblue 2PX;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-color: #FF69B4;
+  height: 15vh;
+}
+
+.footer_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  border: solid white 2px;
+}
+
+.redes_sociais {
+  border: white solid 2px;
+  width: 10vw;
+}
+.redes_sociais img {
+  width: 30%;
+}
+
+.informacoes {
+  border: solid red 2px;
+}
+.informacoes p {
+  font-size: 1vw;
+  color: white;
+  text-align: center;
+}
+
+.logo_footer {
+  border: white solid 2px;
+  width: 5vw;
+  height: 10vh;
+}
+.logo_footer img {
+  width: 90%;
+}/*# sourceMappingURL=style.css.map */
